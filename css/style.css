@@ -1,0 +1,212 @@
+/* <style> */
+        body{
+            margin: 0;
+            padding: 0;
+/* BEGIN: Layout For Full-Page Images */
+        } 
+       
+        #box1{
+            height: 100vh;
+            width: 100%;
+            background-image: url(../img/veggies_smaller.png);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+        #box2{
+            height: 100vh;
+            width: 100%;
+            background-image: url(../img/pexels-photo-461049-smaller.jpeg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+        #box3{
+            height: 100vh;
+            width: 100%;
+            background-image: url(../img/hands_earth_smaller.png);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+        #box4{
+            height: 100vh;
+            width: 100%;
+            background-image: url(../img/pexels-photo-612892-smaller.jpeg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+/* END: Layout For Full-Page Images */
+
+
+/* Change the link color on hover */
+        li a:hover {
+                background-color: #555;
+                color: white;
+            }
+
+/* BEGIN: Headers Info */
+        h1  {
+            font-family: arial black;
+            font-size: 50px;
+            color:white;
+            margin: 0px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        h2{
+            font-family: "Roboto-Slab", serif;
+            font-size: 60px;
+            color: darkgrey;
+            margin: 50px 0px 0px;
+            text-align: center;
+            padding: 35px;
+            display: center;
+            vertical-align: middle;
+        }
+/* END: Headers Info */
+/* BEGIN: Full-Page Text Info */
+        #text_box {
+            height: 75vh;
+            width: 100%;
+            margin: 0px 20px 0px 20px;
+            font-size: 50px;
+            font-weight: 300;
+            font-family: "Roboto-Slab", serif;
+            color: darkgrey;
+            display: center;
+        }
+/* END: Full-Page Text Info */
+/* BEGIN: UG Logo Info */
+        #logo {
+            float: left;
+            position: absolute;
+            display: inline;
+            transition: .05s ease;
+            top: 6%;
+            left: 5%;
+        }
+        /*.banner .logo {
+            display: block;
+            height: 200px;
+            width: auto;
+        }
+        */
+/* END: Logo Info */
+/* BEGIN: UG Mission Pictogram Info */
+        #mission /*homepage upper right pictogram*/ {
+            float: right;
+            position: absolute;
+            transition: .05s ease;
+            top: 2%;
+            right: 5%;
+            display: inline;
+            height: 200;
+            width: auto
+        }
+/* END: UG Mission Pictogram Info */
+/* BEGIN: Scroll Button Bottom Page Info */
+        #scroll /*bottom homepage scroll indicator*/{
+            width: 240px;
+            height: 120px;
+            padding-top: 0px;
+            display: block;
+            margin: 0px auto;
+            overflow: hidden;
+            position: absolute;
+            top: 640px;
+            right: 600px;
+          }
+
+     /* #scroll img {
+            display: block;
+            width: 100%;
+            height: auto;
+        } */
+        
+     /* section.module h2 {
+            margin-bottom: 40px;
+            font-family: "Roboto Slab", serif;
+            font-size: 30px;
+        }  */   
+/* END: Scroll Button Bottom Page Info */
+/* BEGIN: Row & Column Info */
+        .row {
+            display: flex;
+        }
+
+        .col {
+            width: 100%;
+            padding: 16px;
+        }
+
+        .col_form {
+            width: 100%;
+            padding: 200px;
+            text-align: center;
+        /*    background: url("");  */
+        }
+
+        label {
+            line-height: 250%;
+            padding: 0px;
+        }
+/* END: Row & Column Info */
+/* </style> */
+
+
+/* Dropdown Navigation */
+.Nav {
+         
+         background-color: clear;
+         position: fixed;
+         top: 0;
+         width: 100%;
+          }
+        
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+   
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+ 
